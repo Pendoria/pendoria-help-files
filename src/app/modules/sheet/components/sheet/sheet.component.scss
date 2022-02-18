@@ -1,0 +1,53 @@
+.sheet-wrapper-component {
+
+    display: block;
+
+    max-width: 896px;
+    width: calc(100% - 40px);
+
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: Roboto, "Segoe UI", sans-serif;
+
+    color: rgb(173, 186, 199);
+    background-color: #22272e;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    & > .inner-wrapper {
+
+        display: block;
+
+        border: 1px solid #444c56;
+        border-radius: 6px;
+
+        & > .content-wrapper {
+
+            display: block;
+
+            padding: 16px;
+
+            padding-right: 32px;
+            padding-left: 32px;
+
+            box-sizing: border-box;
+
+            & > app-sheet-body {
+
+                display: block;
+                width: 100%;
+
+                margin-right: auto;
+                margin-left: auto;
+
+            }
+
+        }
+
+    }
+
+}
+
+//#30363d

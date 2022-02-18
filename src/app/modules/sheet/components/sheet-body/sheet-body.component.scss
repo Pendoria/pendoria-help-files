@@ -1,0 +1,17 @@
+.sheet-body-component {
+
+    font-size: 16px;
+
+    & > router-outlet + * > *:first-child {
+        margin-top: 0 !important;
+    }
+
+    @import "./styles/hyperlinks";
+    @import "./styles/headers";
+    @import "./styles/font";
+
+    & > *:first-child {
+        margin-top: 0;
+    }
+
+}
